@@ -58,14 +58,16 @@ a:hover{
 .logo a{
  color: white;
 }
-.menu-control-container{
-  display: none !important;
-  position: absolute !important;
-  right: 10px !important;
-  top: 25px !important;
-  font-size: 1.2rem !important;
-  background-color: var(--bgSecondary) !important;
-  border: none !important;
+
+.nav-container .logo-container .menu-control-container{
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #40a9ff;
+  border: none;
 }
 
 .loader{
@@ -118,8 +120,8 @@ a:hover{
       background-color: var(--bgSecondary);
   }
 
-  .menu-control-container{
-      display: block !important;
+  .nav-container .logo-container .menu-control-container{
+    display: block;
   }
 
   .ant-menu{
